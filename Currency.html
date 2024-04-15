@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Currency.css">
+</head>
+
+<body>
+    <form action="">
+        <H2>Currency Converter (JOD-USD)</H2>
+        <div>
+            <label for="amount">amount =</label>
+            <input type="number" id="amount">
+            <label for="input-curruncy">form :</label>
+            <select name="input-curruncy" id="input-curruncy">
+                <option value="USD">USD</option>
+                <option value="JOD">JOD</option>
+            </select>
+            <label for="input-curruncy">To :</label>
+            <select name="output-curruncy" id="output-curruncy">
+                <option value="JOD">JOD</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+        <input type="submit" value="Convert">
+    </form>
+    <div class="result">
+        <h2>Converted Amount</h2>
+        <p> = <span class="Converted-amount" style="display: contents;"></span></p>
+    </div>
+    <script src="Currency.js"></script>
+</body>
+
+</html>
